@@ -1,0 +1,33 @@
+
+            html {scrollbar-color: red; scrollbar-width: thin; scroll-behavior: smooth;}
+            body{color: rgb(255, 254, 254); background-color: rgb(255, 255, 255); background-image: url('https://tse2.mm.bing.net/th/id/OIP.BZvOSwS7_DGVpk7ZcUstmgHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3');
+                 background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; backface-visibility: visible; background-blend-mode: hue; }
+            .columns{display: flex; padding: 5px;}
+            .column1{flex: 1; padding: 5px;}
+            .colmn2{flex: 1; padding: 5px;}
+            @keyframes slideImages {
+                0%{transform: translateX(0px);opacity: 1;}
+                25%{transform:translateX(300px);opacity: 0.8;}
+                50%{transform: translateX(600px);opacity: 0.6;}
+                75%{transform: translateX(800px);opacity: 0.3;}
+                100%{transform: translateX(1000px);opacity: 0;}
+            }
+            .box {background-color: rgb(255, 254, 254); padding: 10px; animation: slideImages 10s ease-in 4s;}
+            header {background-color: white; color: blue; text-align: center; margin: 0; padding: 8px;}
+            header img {width: 200px; height: 200px; border-radius: 60%;}
+            .hero {background-color: white; padding: 30px 15px; text-align: center;}
+            .hero h2 {color: black ; margin: 0; font-size: 24px;}
+            .hero p{color: black;font-size: 16px;}
+            .btn {display: inline-block; background-color: #25D366; color: white; padding: 12px 20px;
+                 text-decoration: none; border-radius: 25px; font-weight: bold; margin-top: 10px;}
+            .section {padding: 20px 15px; color: black; max-width: 700px; margin: auto;}    
+            .section h3 {color: #c2185b; border-bottom: 2px solid #f8bbd0; padding-bottom: 5px;}
+            .service {background-color: rgb(255, 255, 255); color: black; padding: 12px; margin: 10px 0; border-radius: 10px; display: flex; justify-content: space-between;} 
+            .price {font-weight: bold; color: #c2185b;}
+            .box {background-color: white; padding: 15px; border-radius: 10px; text-align: center;}
+            footer {background-color: #4a4949; color: white; text-align: center; padding: 15px; font-size: 14px;}
+            .main-nav {text-decoration: none; text-align: right; margin-right: 25px;}
+            a {color: blue; text-decoration: none;}
+            a:hover {text-decoration: underline; }
+            .btn1 {background-color: #25D366; padding: 2px; text-decoration: none;}
+        
